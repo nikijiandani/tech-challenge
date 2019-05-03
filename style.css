@@ -1,3 +1,47 @@
+
+/*TO GET RID OF WHITESPACE ON THE BODY*/
+html,body {
+	/* font-family: 'Raleway', sans-serif; */
+	background: #FFFFFF;
+	margin: 0;
+	padding: 0;
+}
+footer {
+	color: #FFFFFF;
+}
+footer a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+footer p {
+	margin-top: 0.5em;
+}
+input::placeholder {
+	font-family: 'Noto Serif', serif;
+	font-style: italic;
+	text-align: left;
+	vertical-align: bottom;
+}
+input[type=email] {
+    height: auto;
+    border: 2px solid #FFFFFF;
+    font-size: 19px;
+    padding: 10px;
+    margin-right: 3px;
+}
+button {
+    background: #F60000;
+    height: auto;
+    border: 0;
+    color: #FFFFFF;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 8px;
+    font-size: 1em;
+}
+button:hover {
+	text-decoration: underline;
+}
 .hero {
     width: 100%;
     height: 30em;
@@ -15,4 +59,57 @@
     height: 20em;
     background-size: cover;
     background-repeat: no-repeat;
+}
+.foot {
+	background: #241F1F;
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+    padding: 0 10vw;
+    border-top: 2px solid #0D0D0D;
+    border-bottom: 2px solid #444444;
+}
+.foot h4 {
+    margin-bottom: 1.30em;
+    text-transform: uppercase;
+    font-size: 1em;
+}
+.footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+	padding: 3vw 10vw;
+	background: #444444;
+}
+.icons a {
+	padding: 0.5vw;
+}
+.wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+#email {
+	flex-grow: 1.5;
+}
+#button {
+	flex-grow: 1;
+}
+#left {
+	flex-shrink: 1.6;
+	padding-right: 2px;
+}
+#middle ul {
+	list-style-type: none;
+	display: flex;
+	flex-wrap: wrap;
+	text-transform: uppercase;
+	flex-direction: column;
+	padding-right: 50px;
+	padding-left: 50px;
+}
+#middle ul li {
+	padding: 0.3em;
+}
+#middle a:hover {
+	font-weight: 900;
 }
