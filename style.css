@@ -1,13 +1,14 @@
 
 /*TO GET RID OF WHITESPACE ON THE BODY*/
 html,body {
-	/* font-family: 'Raleway', sans-serif; */
+	font-family: 'Playfair Display', serif;
 	background: #FFFFFF;
 	margin: 0;
 	padding: 0;
 }
 footer {
-	color: #FFFFFF;
+    color: #FFFFFF;
+    font-family: 'Cabin', sans-serif;
 }
 footer a {
 	color: #FFFFFF;
