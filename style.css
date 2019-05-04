@@ -6,6 +6,38 @@ html,body {
 	margin: 0;
 	padding: 0;
 }
+nav {
+	background: #F6F7F9;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	width: 100%;
+	margin:0 auto;
+	padding: 1.3em 0 1.3em;
+	overflow: hidden;
+	top: 0;
+	left: 0;
+}
+nav a {
+	text-decoration: none;
+	color: #241F1F;
+	font-weight: 500;
+}
+nav a:hover {
+	text-decoration: underline;
+}
+nav li {
+    font-family: 'Cabin', sans-serif;
+    font-size: 1.2em;
+	text-transform: uppercase;
+}
+header ul{
+	list-style-type: none;
+	display: flex;
+	justify-content: space-evenly;
+	width: 40%;
+	flex-wrap: wrap;
+}
 footer {
     color: #FFFFFF;
     font-family: 'Cabin', sans-serif;
@@ -42,6 +74,11 @@ button {
 }
 button:hover {
 	text-decoration: underline;
+}
+.logo {
+	font-size: 30px;
+	font-weight: bold;
+	padding-top: 7px;
 }
 .hero {
     width: 100%;
