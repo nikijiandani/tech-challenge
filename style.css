@@ -76,7 +76,7 @@ button:hover {
 	text-decoration: underline;
 }
 .logo {
-	font-size: 30px;
+	font-size: 2em;                            /* 32/16 */
 	font-weight: bold;
 	padding-top: 7px;
 }
