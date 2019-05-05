@@ -38,6 +38,9 @@ header ul{
 	width: 40%;
 	flex-wrap: wrap;
 }
+h2 {
+    margin-top: 0;
+}
 footer {
     color: #FFFFFF;
     font-family: 'Cabin', sans-serif;
@@ -81,7 +84,7 @@ button:hover {
 	padding-top: 7px;
 }
 .hero {
-    height: 50em;
+    height: 35.5em;
     background-image: url(./assets/image-1.jpg);
     background-size: contain;
     background-repeat: no-repeat;
@@ -104,6 +107,9 @@ button:hover {
     font-weight: 400;
     letter-spacing: 0.03em;
     margin-bottom: 0;
+}
+.carousel {
+    background-color: #F6F7F9;
 }
 .carousel-image {
     background-image: url(./assets/image-2.jpg);
